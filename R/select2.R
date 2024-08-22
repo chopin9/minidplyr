@@ -8,5 +8,5 @@
 #'
 #' @examples
 select2 <- function(df, vars){
-  df[, vars]
+  df[vars]
 }
